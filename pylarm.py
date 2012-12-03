@@ -1,7 +1,7 @@
 __author__ = "Richard O'Dwyer"
 __email__ = "richard@richard.do"
 __version__ = "1.0"
-__license__ = "None"
+__license__ = "WTFPL, Version 2 (http://www.gnu.org/licenses/license-list.html#WTFPL)"
 
 from datetime import datetime
 import winsound
