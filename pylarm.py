@@ -8,7 +8,6 @@ import winsound
 import time
 import re
 
-game_over = None
 alarm_set = None
 active = None
 
@@ -47,10 +46,10 @@ def sos():
         winsound.Beep(2000, 100)
 
 #start
-print("__Welcome to Pylarm__")
+if __name__ == '__main__':
 
-#keep alive
-while game_over is None:
+    print("__Welcome to Pylarm__")
+
     if start():
         active = True
     time.sleep(4)
